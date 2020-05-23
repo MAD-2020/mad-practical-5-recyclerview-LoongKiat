@@ -62,7 +62,7 @@ public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListViewHolder> {
                     }
                 });
                 displayTask = item.findViewById(R.id.textView2);
-                displayTask.setText(task);
+                displayTask.setText(task + "?");
                 AlertDialog alert =  builder.create();
                 alert.show();
             }
